@@ -1,0 +1,17 @@
+{
+  "name": "acf/formblock",
+  "title": "Form Block",
+  "description": "A custom block for adding a responsive form.",
+  "category": "layout",
+  "icon": "format-image",
+  "keywords": ["image", "grid", "layout"],
+  "acf": {
+      "mode": "preview",
+      "renderTemplate": "blocks/formblock/formblock.php"
+  },
+  "supports": {
+      "align": ["wide", "full"],
+      "anchor": true,
+      "customClassName": true
+  }
+}

@@ -1,0 +1,156 @@
+/* 
+* Styles for the main content of the footer section
+* This section typically includes important links, contact information, and other relevant details.
+* The styles ensure proper spacing, alignment, and responsiveness for various screen sizes.
+*/
+.footer-main {
+  padding: 2em 0em 1em 0em;
+  background-color: #000;
+
+  .footer-inner-wrapper {
+    display: flex;
+    // flex-direction: column;
+    flex-wrap: wrap;
+    color: #fff;
+    margin-bottom: 1.5em;
+
+    h5 {
+      font-weight: 600;
+      font-size: 18px;
+    }
+    a {
+      padding: 1px 0px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #fff;
+      text-decoration: none;
+
+      &:hover {
+        color: #A6A6A6;
+      }
+    }
+
+    .col-0-wrapper {
+      .top-row {
+        margin-bottom: 1em;
+
+        img {
+          width: 250px;
+        }
+      }
+      .bottom-row {
+        display: flex;
+        justify-content: flex-start;
+
+        .social-link-wrapper {
+          display: flex;
+          flex-wrap: wrap;
+          align-content: center;
+          justify-content: center;
+
+          a {
+            padding: 6px;
+
+            img {
+              width: 16px;
+              height: auto;
+
+              &:hover {
+                fill: #FFF;
+              }
+            }
+            .fb-icon {
+              width: 14px;
+            }
+          }
+        }
+        
+        @media screen and (max-width: 991px) {
+          justify-content: space-between;
+        }
+      }
+
+      @media screen and (max-width: 991px) {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2em;
+
+        .top-row {
+          img {
+            width: 200px;
+          }
+        }
+        .bottom-row {
+          .social-link-wrapper {
+            display: block;
+          }
+        }
+      }
+    }
+    
+    .col-1-wrapper,
+    .col-2-wrapper,
+    .col-3-wrapper {
+      padding-left: 10px;
+    }
+    .col-3-wrapper {
+      .navbar-nav {
+          .menu-item-language {
+            .dropdown-menu {
+              padding: 10px;
+
+              a {
+                color: #000;
+                font-size: 14px;
+              }
+            }
+          }
+
+        a {
+          display: flex;
+          align-items: normal;
+          font-size: 16px;
+          font-weight: 600;
+
+          &::after {
+            align-self: center;
+          }
+
+          .wpml-ls-flag {
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 991px) {
+      justify-content: space-between;      
+    }
+  }
+
+  .footer-bottom-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    ul {
+      width: 49%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      li {
+        a {
+          color: #fff;
+          font-size: 12px;
+        }
+      }
+    }
+    h5 {
+      font-size: 12px;
+      color: #fff;
+      margin-bottom: 0px;
+    }
+
+
+  }
+}

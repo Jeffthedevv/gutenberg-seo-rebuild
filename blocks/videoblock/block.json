@@ -1,0 +1,17 @@
+{
+  "name": "acf/videoblock",
+  "title": "Video Block",
+  "description": "A custom block for displaying video without text overlay.",
+  "category": "layout",
+  "icon": "format-image",
+  "keywords": ["image", "grid", "layout"],
+  "acf": {
+      "mode": "preview",
+      "renderTemplate": "blocks/videoblock/videoblock.php"
+  },
+  "supports": {
+      "align": ["wide", "full"],
+      "anchor": true,
+      "customClassName": true
+  }
+}

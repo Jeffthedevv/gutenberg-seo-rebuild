@@ -1,0 +1,17 @@
+{
+    "name": "acf/imageblock",
+    "title": "Page Hero",
+    "description": "A custom block for displaying a hero image/video with text overlay.",
+    "category": "layout",
+    "icon": "format-image",
+    "keywords": ["image", "grid", "layout"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "blocks/heroblock/heroblock.php"
+    },
+    "supports": {
+        "align": ["wide", "full"],
+        "anchor": true,
+        "customClassName": true
+    }
+}

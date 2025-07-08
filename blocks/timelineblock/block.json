@@ -1,0 +1,17 @@
+{
+  "name": "acf/timeline",
+  "title": "Timeline Content Block",
+  "description": "A custom block container for displaying the about us timeline block",
+  "category": "layout",
+  "icon": "format-image",
+  "keywords": ["image", "grid", "layout"],
+  "acf": {
+      "mode": "preview",
+      "renderTemplate": "blocks/timelineblock/timelineblock.php"
+  },
+  "supports": {
+      "align": ["wide", "full"],
+      "anchor": true,
+      "customClassName": true
+  }
+}

@@ -1,0 +1,115 @@
+.blog-page-content {
+  .blog-content-wrapper {
+    .spacer {
+      display: block;
+      height: 100px;
+    }
+
+    .sub-heading-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2em;
+
+      h3 {
+        text-align: center;
+      }
+    }
+
+    .blog-posts-wrapper {
+      .post-card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 1em 0em 2em 0em;
+        padding: 1em 0em;
+        border-top: 1px solid #120F0F;
+
+        .card-left-wrapper {
+          text-align: center;
+        }
+
+        .card-right-wrapper {
+          h4 {
+            a {
+              text-decoration: none;
+              font-size: 18px;
+              text-transform: uppercase;
+              font-weight: 600;
+              margin-bottom: 15px;
+              color: #000;
+
+            }
+          }
+          .post-excerpt {
+            p {
+              font-size: 16px;
+            }
+          }
+          .post-meta {
+            color: darkslategray;
+            font-size: 15px;
+            margin-bottom: 1em;
+          }
+          .read-more-btn {
+            text-decoration: none;
+            background-color: #000;
+            color: #fff;
+            padding: 10px 18px;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 500;
+            text-transform: uppercase;
+            transition: ease-in-out 0.3s;
+
+            &:hover {
+              font-size: 14px;
+            }
+          }
+
+        }
+      }
+    }
+
+    .pagination {
+      margin: 2em 0em;
+      justify-content: center;
+
+
+      .screen-reader-text {
+        display: none;
+      }
+      .nav-links {
+        a {
+          text-decoration: none;
+          font-size: 18px;
+          text-transform: uppercase;
+          font-weight: 600;
+          margin-bottom: 15px;
+          color: #000;
+        }
+      }
+    }
+  }
+
+
+
+}
+
+.single-post {
+  .post {
+    padding: 5em 0em;
+  }
+
+  .post-navigation {
+    padding-bottom: 1em;
+    justify-content: center;
+    display: flex;
+
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}

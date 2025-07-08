@@ -1,0 +1,58 @@
+// Styles for The Counter Block, a custom gutenburg block.
+
+.counter-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+
+  .num-counter-wrapper {
+    h2 {
+      font-family: "DINNextLTPro";
+      font-size: 46px;
+      font-weight: 600;
+      color: #120F0F;
+      line-height: 1.3em;
+      margin-bottom: 10px;
+    }
+  }
+
+  .title-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+    h3 {
+      text-align: center;
+      font-family: "DINNextLTPro";
+      font-size: 30px;
+      font-weight: 600;
+      color: #120F0F;
+      line-height: 1.3em;
+      max-width: 10em;
+    }
+  }
+  
+  .subTitle-wrapper {
+    width: 100%;
+
+    p {
+      text-align: center;
+      color: #A6A6A6;
+      font-size: 16px;
+    }
+    .subTitle_typewriter {
+     &::after {
+        content: '|';
+        animation: blink 1s infinite;
+      }
+    
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+    }
+  }
+
+}

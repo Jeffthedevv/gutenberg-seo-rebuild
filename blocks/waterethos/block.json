@@ -1,0 +1,17 @@
+{
+  "name": "acf/SITENAMEethos",
+  "title": "SITENAME Ethos Block",
+  "description": "A custom block container for displaying list, that is left aligned.",
+  "category": "layout",
+  "icon": "format-image",
+  "keywords": ["image", "grid", "layout"],
+  "acf": {
+      "mode": "preview",
+      "renderTemplate": "blocks/SITENAMEethos/SITENAMEethos.php"
+  },
+  "supports": {
+      "align": ["wide", "full"],
+      "anchor": true,
+      "customClassName": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "acf/counterblock",
+  "title": "Counter block",
+  "description": "A custom block for displaying a counter with a subtitle and a description.",
+  "category": "layout",
+  "icon": "format-image",
+  "keywords": ["image", "grid", "layout"],
+  "acf": {
+      "mode": "preview",
+      "renderTemplate": "blocks/counterblock/counterblock.php"
+  },
+  "supports": {
+      "align": ["wide", "full"],
+      "anchor": true,
+      "customClassName": true
+  }
+}

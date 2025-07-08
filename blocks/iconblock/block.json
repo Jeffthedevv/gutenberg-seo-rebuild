@@ -1,0 +1,17 @@
+{
+  "name": "acf/iconblock",
+  "title": "Icon Block",
+  "description": "A custom block container for displaying list, that is left aligned.",
+  "category": "layout",
+  "icon": "format-image",
+  "keywords": ["image", "grid", "layout"],
+  "acf": {
+      "mode": "preview",
+      "renderTemplate": "blocks/iconblock/iconblock.php"
+  },
+  "supports": {
+      "align": ["wide", "full"],
+      "anchor": true,
+      "customClassName": true
+  }
+}

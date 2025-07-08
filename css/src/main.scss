@@ -1,0 +1,33 @@
+//Boostrap
+@import './bootstrap/bootstrap.css';
+@import './bootstrap/bootstrap-grid.css';
+@import './bootstrap/bootstrap-utilities.css';
+@import './bootstrap/bootstrap-reboot.css';
+
+// fonts
+@import './font/main-fonts';
+
+// layout, structure, and tempates
+@import './layout';
+@import './template/footer/newsletter';
+@import './template/footer/footer-main';
+
+// Gutenburg blocks
+@import './blocks/heroblock';
+@import './blocks/counterblock';
+@import './blocks/splitblock';
+@import './blocks/ctablock';
+@import './blocks/paradigmblock';
+@import './blocks/containerblock';
+@import './blocks/formblock';
+@import './blocks/timelineblock';
+@import './blocks/wheroblock';
+@import './blocks/listblock';
+@import './blocks/videoblock';
+@import './blocks/provengraph';
+
+// main content pane styles
+@import './components/content';
+@import './pages/home';
+@import './pages/archive';
+@import './pages/about';

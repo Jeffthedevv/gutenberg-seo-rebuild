@@ -1,0 +1,65 @@
+// Styles for The Split Block, a custom gutenburg block.
+
+.split-content-block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+
+  .content-left,
+  .content-right {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      width: 100%;
+      margin-bottom: 1em;
+    }
+
+    p {
+      width: 100%;
+      
+      &:has(img){
+        text-align: center;
+      }
+    }
+    ul {
+      font-size: 16px;
+    }
+    h5 {
+      font-size: 17px;
+    }
+  }
+  .content-left {
+    padding-right: 10px;
+
+    @media screen and (max-width: 991px) {
+      padding-right: 0px;       
+    }
+  }
+  .content-right {
+    padding-left: 10px; 
+
+    @media screen and (max-width: 991px) {
+      padding-left: 0px; 
+      margin-top: 2em;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+   justify-content: center;
+  }
+}
+
+.wp-block-columns .cta-block.cta-block--half {
+  @media screen and ( max-width: 768px) {
+    border-radius: 20px;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "acf/provengraph",
+  "title": "Proven Graph Content Block",
+  "description": "A custom block for displaying content in a split duel layout.",
+  "category": "layout",
+  "icon": "format-image",
+  "keywords": ["image", "grid", "layout"],
+  "acf": {
+      "mode": "preview",
+      "renderTemplate": "blocks/provengraph/provengraph.php"
+  },
+  "supports": {
+      "align": ["wide", "full"],
+      "anchor": true,
+      "customClassName": true
+  }
+}

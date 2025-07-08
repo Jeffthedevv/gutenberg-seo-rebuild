@@ -1,0 +1,19 @@
+// Styles for a custom gutenburg block for containerblock
+
+.container-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+
+
+  p {
+    padding: 0px 5em;
+
+    @media screen and ( max-width: 991px) {
+      padding: 0px;
+    }
+  }
+}

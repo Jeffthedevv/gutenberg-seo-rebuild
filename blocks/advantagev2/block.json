@@ -1,0 +1,17 @@
+{
+  "name": "acf/SITENAMEadvantagev2",
+  "title": "SITENAME Advantage Version 2 Content Block",
+  "description": "A custom block container for displaying content in a paradigm shift block",
+  "category": "layout",
+  "icon": "format-image",
+  "keywords": ["image", "grid", "layout"],
+  "acf": {
+      "mode": "preview",
+      "renderTemplate": "blocks/advantagev2/advantagev2.php"
+  },
+  "supports": {
+      "align": ["wide", "full"],
+      "anchor": true,
+      "customClassName": true
+  }
+}

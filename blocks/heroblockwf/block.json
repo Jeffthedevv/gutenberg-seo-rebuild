@@ -1,0 +1,17 @@
+{
+  "name": "acf/heroblockwf",
+  "title": "Hero Block with Form",
+  "description": "A custom block for displaying a hero image/video with text overlay modified to contain a form.",
+  "category": "layout",
+  "icon": "format-image",
+  "keywords": ["image", "grid", "layout"],
+  "acf": {
+      "mode": "preview",
+      "renderTemplate": "blocks/heroblockwf/heroblockwf.php"
+  },
+  "supports": {
+      "align": ["wide", "full"],
+      "anchor": true,
+      "customClassName": true
+  }
+}

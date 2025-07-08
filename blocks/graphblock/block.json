@@ -1,0 +1,17 @@
+{
+  "name": "acf/graphblock",
+  "title": "A Graph Content Block for Onsite Reuse",
+  "description": "A custom block for displaying content in a split duel layout.",
+  "category": "layout",
+  "icon": "format-image",
+  "keywords": ["image", "grid", "layout"],
+  "acf": {
+      "mode": "preview",
+      "renderTemplate": "blocks/graphblock/graphblock.php"
+  },
+  "supports": {
+      "align": ["wide", "full"],
+      "anchor": true,
+      "customClassName": true
+  }
+}

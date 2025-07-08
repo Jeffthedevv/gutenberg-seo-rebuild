@@ -1,0 +1,48 @@
+.form-responsive-block {
+
+  .inner-copy {
+    text-align: center;
+    color : #33475b;
+
+    h4 {
+      font-size: 1.5em;
+      font-weight: 600;
+    }
+    p {
+      font-size: 1.2em;
+      font-weight: 600;
+    }
+  }
+  
+  .inner-form-wrapper {
+    .form {
+      input {
+        width: 100%;
+        padding: 8px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 7px;
+      }
+      .form-submit-btn {
+        background-color: #000;
+        color: #fff;
+        border: none;
+        border-radius: 7px;
+        padding: 5px 20px;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 1em;
+        transition: 0.4s ease;       
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+
+      @media screen and (max-width: 1024px) {
+        text-align: center;
+      }
+    }
+  }
+
+}

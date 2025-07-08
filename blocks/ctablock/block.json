@@ -1,0 +1,17 @@
+{
+  "name": "acf/ctablock",
+  "title": "Call to Action Block",
+  "description": "A custom block for displaying a cta with a background and optional link",
+  "category": "layout",
+  "icon": "format-image",
+  "keywords": ["image", "grid", "layout"],
+  "acf": {
+      "mode": "preview",
+      "renderTemplate": "blocks/ctablock/ctablock.php"
+  },
+  "supports": {
+      "align": ["wide", "full"],
+      "anchor": true,
+      "customClassName": true
+  }
+}

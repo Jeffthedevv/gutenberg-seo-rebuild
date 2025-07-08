@@ -1,0 +1,17 @@
+{
+  "name": "acf/wheroblock",
+  "title": "Page Hero for Shield Page",
+  "description": "A custom block for displaying a hero image/video with text overlay.",
+  "category": "layout",
+  "icon": "format-image",
+  "keywords": ["image", "grid", "layout"],
+  "acf": {
+      "mode": "preview",
+      "renderTemplate": "blocks/wheroblock/wheroblock.php"
+  },
+  "supports": {
+      "align": ["wide", "full"],
+      "anchor": true,
+      "customClassName": true
+  }
+}
